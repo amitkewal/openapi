@@ -1,0 +1,30 @@
+_id: spc_46ce899093214c7bb0493e2271de8ab8
+type: ApiSpec
+parentId: wrk_bd8bf63eb99f44c8864bdcd711faa618
+modified: 1629799127811
+created: 1629277266045
+fileName: my-spec.yaml
+contents: |-
+  openapi: 3.0.0
+  info:
+    description: "This is a sample server server."
+    version: 1.0.2
+    title: SAE-POC API
+    contact:
+      email: akewal@citco.com
+  servers:
+    - url: "http://127.0.0.1:3009"
+  paths:
+    "/test":
+      get:
+        operationId:
+        responses:
+          "200":
+            description: Tests
+    "/test1":
+      get:
+        operationId:
+        responses:
+          "200":
+            description: Tests111
+contentType: yaml
